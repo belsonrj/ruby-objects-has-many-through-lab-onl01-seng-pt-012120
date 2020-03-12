@@ -14,7 +14,11 @@ class Patient
   end
 
   def appointments
+<<<<<<< HEAD
     Appointment.all.select {|appointment| appointment.patient == self}
+=======
+    @appointments
+>>>>>>> ddabdbe8425f607831da298fbbc9dbed3c209f99
   end
 
   def doctors
